@@ -1,1 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html
+    b:css='false'
+    b:defaultwidgetversion='2'
+    b:layoutsVersion='3'
+    b:responsive='true'
+    expr:dir='data:blog.languageDirection'
+    expr:lang='data:blog.locale'
+    xmlns='http://www.w3.org/1999/xhtml'
+    xmlns:b='http://www.google.com/2005/gml/b'
+    xmlns:data='http://www.google.com/2005/gml/data'
+    xmlns:expr='http://www.google.com/2005/gml/expr'>
 
+<head>
+
+<meta charset='UTF-8'/>
+<meta content='width=device-width,initial-scale=1' name='viewport'/>
+
+<title><data:blog.pageTitle/></title>
+
+<b:include data='blog' name='all-head-content'/>
+
+<b:skin><![CDATA[
+/* Job India Alert Theme v1.0 */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial,sans-serif;
+background:#f5f5f5;
+color:#222;
+}
+
+.container{
+width:1200px;
+max-width:95%;
+margin:auto;
+}
+]]></b:skin>
+
+</head>
+
+<body>
+
+<!-- Header will come in Part 2 -->
+
+</body>
+</html>
